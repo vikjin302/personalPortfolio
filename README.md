@@ -8,7 +8,7 @@ A personal portfolio website built to showcase my skills, projects, and experien
 
 💼 Projects – Showcases of my personal and academic projects.
 
-🛠️ Skills – Technical skills with visual indicators (icons or progress bars).
+🛠️ Skills – Technical skills with LeetCode Journey.
 
 📜 Resume – View and download resume/CV.
 
@@ -18,11 +18,11 @@ A personal portfolio website built to showcase my skills, projects, and experien
 
 
 🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (or React if applicable)
+Frontend: React JS 
 
-Styling: CSS / Tailwind CSS / Bootstrap
+Styling: Tailwind CSS (Framework) with ShadCn UI Components
 
-Animations: AOS (Animate On Scroll), Framer Motion (if using React)
+Animations: Framer Motion 
 
 Deployment: GitHub Pages / Vercel / Netlify
 
