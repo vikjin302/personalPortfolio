@@ -1,54 +1,29 @@
-# React + TypeScript + Vite
+🌐 Personal Portfolio Website
+A personal portfolio website built to showcase my skills, projects, and experiences as a software developer. It acts as a digital resume and central hub for all my professional links, achievements, and contact details.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Features
+👤 About Me – Introduction, career goals, and background.
 
-## Expanding the ESLint configuration
+💼 Projects – Showcases of my personal and academic projects.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🛠️ Skills – Technical skills with visual indicators (icons or progress bars).
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+📜 Resume – View and download resume/CV.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+📫 Contact Me – Contact form that sends messages to my email.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🌐 Social Links – GitHub, LinkedIn, Twitter, etc.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+🛠️ Tech Stack
+Frontend: HTML5, CSS3, JavaScript (or React if applicable)
+
+Styling: CSS / Tailwind CSS / Bootstrap
+
+Animations: AOS (Animate On Scroll), Framer Motion (if using React)
+
+Deployment: GitHub Pages / Vercel / Netlify
+
+ 
